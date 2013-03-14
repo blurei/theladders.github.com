@@ -4,7 +4,7 @@
   <title><![CDATA[TheLadders Engineering Stories]]></title>
   <link href="http://dev.theladders.com/atom.xml" rel="self"/>
   <link href="http://dev.theladders.com/"/>
-  <updated>2013-03-13T17:10:46-04:00</updated>
+  <updated>2013-03-14T10:14:38-04:00</updated>
   <id>http://dev.theladders.com/</id>
   <author>
     <name><![CDATA[TheLadders Engineering]]></name>
@@ -16,14 +16,14 @@
   <entry>
     <title type="html"><![CDATA[Trouble with Google's ImmutableSet]]></title>
     <link href="http://dev.theladders.com/2013/03/trouble-with-googles-immutableset/"/>
-    <updated>2013-03-12T06:10:10-04:00</updated>
+    <updated>2013-03-12T10:10:10-04:00</updated>
     <id>http://dev.theladders.com/2013/03/trouble-with-googles-immutableset</id>
     <content type="html"><![CDATA[<p><em>Note: this post was originally published March, 12, 2012.  We&#8217;re bringing it back from the dead because we love zombies and happen to really like it.</em></p>
 
 <blockquote><p>When the going gets weird, the weird turn pro.</p><footer><strong>&#8211;Hunter S. Thompson</strong></footer></blockquote>
 
 
-<p>One feature we offer here at TheLadders is the ability for job seekers to &#8220;follow&#8221; recruiters, sort of how Twitter users can follow other Twitter users. Recruiters can then broadcast information, like announcements about new openings, &amp;c., to their followers.</p>
+<p>One feature we offer here at TheLadders is the ability for job seekers to &#8220;follow&#8221; recruiters, sort of how Twitter users can follow other Twitter users. Recruiters can then broadcast information, like announcements about new openings, to their followers.</p>
 
 <p>At start-up, as well as at set times during the night, caches are loaded that contain mappings between followable recruiters and the job seekers who follow them.
 Recently we noticed that the time to create one of these caches was gradually increasing. There&#8217;s a cache that maps recruiters to job seekers, called the &#8220;followers cache,&#8221; which originally took a few minutes to build. We found that the time it was taking to build was steadily increasing over the course of just a few weeks to 30 minutes or more. This wasn&#8217;t immediately apparent to us because the problem only manifested in production, and not in the day-to-day QA environment used by developers.</p>
@@ -474,7 +474,7 @@ presentation and discussion.</p>
   <entry>
     <title type="html"><![CDATA[Mutation testing with PIT: A step beyond normal code coverage]]></title>
     <link href="http://dev.theladders.com/2013/02/mutation-testing-with-pit-a-step-beyond-normal-code-coverage/"/>
-    <updated>2013-02-20T03:15:15-05:00</updated>
+    <updated>2013-02-20T08:15:15-05:00</updated>
     <id>http://dev.theladders.com/2013/02/mutation-testing-with-pit-a-step-beyond-normal-code-coverage</id>
     <content type="html"><![CDATA[<blockquote><p>&#8220;Program testing can be used to show the presence of bugs, but never to show their absence!&#8221;</p><footer><strong>&#8211;Edsger W. Dijkstra</strong></footer></blockquote>
 
@@ -693,7 +693,7 @@ removed call to com/theladders/Person::setLastName : SURVIVED</p>
   <entry>
     <title type="html"><![CDATA[The Catechism of Code]]></title>
     <link href="http://dev.theladders.com/2013/02/onboarding/"/>
-    <updated>2013-02-01T06:34:00-05:00</updated>
+    <updated>2013-02-01T11:34:00-05:00</updated>
     <id>http://dev.theladders.com/2013/02/onboarding</id>
     <content type="html"><![CDATA[<blockquote><p>&#8220;Begin, be bold, and venture to be wise.&#8221;</p><footer><strong>&#8211;Horace</strong></footer></blockquote>
 
@@ -757,7 +757,7 @@ removed call to com/theladders/Person::setLastName : SURVIVED</p>
   <entry>
     <title type="html"><![CDATA[New Beginnings]]></title>
     <link href="http://dev.theladders.com/2013/01/new-beginnings/"/>
-    <updated>2013-01-31T06:59:09-05:00</updated>
+    <updated>2013-01-31T11:59:09-05:00</updated>
     <id>http://dev.theladders.com/2013/01/new-beginnings</id>
     <content type="html"><![CDATA[<blockquote><p>&#8220;You must be the change you wish to see&#8230;&#8221;</p><footer><strong>&#8211;Gandhi</strong></footer></blockquote>
 
