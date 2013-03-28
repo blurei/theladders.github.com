@@ -4,7 +4,7 @@
   <title><![CDATA[TheLadders Engineering Stories]]></title>
   <link href="http://dev.theladders.com/atom.xml" rel="self"/>
   <link href="http://dev.theladders.com/"/>
-  <updated>2013-03-14T10:14:38-04:00</updated>
+  <updated>2013-03-28T11:02:50-04:00</updated>
   <id>http://dev.theladders.com/</id>
   <author>
     <name><![CDATA[TheLadders Engineering]]></name>
@@ -14,9 +14,40 @@
 
   
   <entry>
+    <title type="html"><![CDATA[TheLadders Onboarding: A Retrospective]]></title>
+    <link href="http://dev.theladders.com/2013/03/theladders-on-boarding-a-retrospective/"/>
+    <updated>2013-03-28T12:00:00-04:00</updated>
+    <id>http://dev.theladders.com/2013/03/theladders-on-boarding-a-retrospective</id>
+    <content type="html"><![CDATA[<blockquote><p>Whatever you do or dream you can do – begin it. Boldness has genius and power and magic in it.</p><footer><strong>&#8211;Johann Wolfgang von Goethe</strong></footer></blockquote>
+
+
+<p><img class="center" src="http://dev.theladders.com/images/dilbert-onboarding.gif" title="'Onboarding'" ></p>
+
+<p>Just before joining TheLadders, I read a post on their dev blog detailing a new onboarding process for incoming engineers. I was very interested in what I&#8217;d soon learn about its execution. If you&#8217;ve not had the chance to read through this post, you can find it <a href="http://dev.theladders.com/2013/02/onboarding/">here</a>.</p>
+
+<p>The onboarding process could be broken into two main sections. The first started when we were given a few user stories and were asked to build a corresponding system while following some fairly restrictive <a href="https://github.com/TheLadders/object-calisthenics#the-rules">guidelines</a>. These restrictions challenged us to reevaluate our normal architecting techniques and develop less-than-obvious solutions to this problem. The rules allowed us to implement our solution in the language of our own choosing, and I chose Ruby. The chance to showcase my skills for the first time at a new company excited me.</p>
+
+<p>The second section spanned the next eight days. We dove into Robert Martin’s SOLID principles video series. After watching, learning, and discussing each one of the the five principles, we proceeded to work on code with real-world <a href="https://github.com/TheLadders/solid-exercises">examples</a> of principle violations. Between these videos and exercises, we met with established engineers at TheLadders to discuss the subject matter and our own philosophies on software craftsmanship.</p>
+
+<p>This was the first time I&#8217;d ever had a formal onboarding. I&#8217;ve worked for agencies and other product companies, both larger and smaller, before joining TheLadders. This was brand new. I&#8217;d encourage every software company to seriously consider a process like this for their new engineers. Why? Here are a few reasons:</p>
+
+<ul>
+<li>I was allowed access to the top engineers in the company, learning not only about the way software was written at the TheLadders but also where and how the team was looking to grow.</li>
+<li>I was able to get a strong feeling for the culture and technologies used as well as prevailing opinions on languages, practices and history. This was also a great opportunity for engineers at TheLadders to learn more about me and get a good picture of my experience and viewpoints.</li>
+<li>It also served as a vacation from production code, deadlines and the stress of the everyday that we encounter wherever we go. We were encouraged to stretch our solutions and see where they took us.</li>
+</ul>
+
+
+<p>You may have heard of Rich Hickey’s <a href="http://blip.tv/clojure/hammock-driven-development-4475586">Hammock Driven Development</a>, the idea that spending time away from your code produces unexpected benefits. IN the same vein, I&#8217;ll call what we did for these two weeks Garbage Driven Development. What do I mean when I say garbage? The code written while practicing GDD is never going into production. It’ll never really do anything beyond providing a learning experience and proving a point you’d like to make. You don’t feel pressure to make sure the code fits within a particular context, that it’s easily readable by others, or that it’ll be maintainable going forward. In the end, the code may be quite eloquent or look like garbage, but it doesn&#8217;t really matter. Try that idea you’ve always thought about but never had time to implement. Buck best practices to see if you can find better ones. When you’re done, it’s garbage. Developers would be well served to routinely make time to focus less on product and more on process.</p>
+
+<p>Most of all, this process woke me up from the monotony of just pushing out code and inspired me to learn and pursue more of my own side projects. I&#8217;ve wanted to read more, explore new languages, and try new ways of doing things. It was an excellent way to frame the start of a new chapter in my life as an engineer.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Trouble with Google's ImmutableSet]]></title>
     <link href="http://dev.theladders.com/2013/03/trouble-with-googles-immutableset/"/>
-    <updated>2013-03-12T10:10:10-04:00</updated>
+    <updated>2013-03-12T06:10:10-04:00</updated>
     <id>http://dev.theladders.com/2013/03/trouble-with-googles-immutableset</id>
     <content type="html"><![CDATA[<p><em>Note: this post was originally published March, 12, 2012.  We&#8217;re bringing it back from the dead because we love zombies and happen to really like it.</em></p>
 
@@ -474,7 +505,7 @@ presentation and discussion.</p>
   <entry>
     <title type="html"><![CDATA[Mutation testing with PIT: A step beyond normal code coverage]]></title>
     <link href="http://dev.theladders.com/2013/02/mutation-testing-with-pit-a-step-beyond-normal-code-coverage/"/>
-    <updated>2013-02-20T08:15:15-05:00</updated>
+    <updated>2013-02-20T03:15:15-05:00</updated>
     <id>http://dev.theladders.com/2013/02/mutation-testing-with-pit-a-step-beyond-normal-code-coverage</id>
     <content type="html"><![CDATA[<blockquote><p>&#8220;Program testing can be used to show the presence of bugs, but never to show their absence!&#8221;</p><footer><strong>&#8211;Edsger W. Dijkstra</strong></footer></blockquote>
 
@@ -693,7 +724,7 @@ removed call to com/theladders/Person::setLastName : SURVIVED</p>
   <entry>
     <title type="html"><![CDATA[The Catechism of Code]]></title>
     <link href="http://dev.theladders.com/2013/02/onboarding/"/>
-    <updated>2013-02-01T11:34:00-05:00</updated>
+    <updated>2013-02-01T06:34:00-05:00</updated>
     <id>http://dev.theladders.com/2013/02/onboarding</id>
     <content type="html"><![CDATA[<blockquote><p>&#8220;Begin, be bold, and venture to be wise.&#8221;</p><footer><strong>&#8211;Horace</strong></footer></blockquote>
 
@@ -757,7 +788,7 @@ removed call to com/theladders/Person::setLastName : SURVIVED</p>
   <entry>
     <title type="html"><![CDATA[New Beginnings]]></title>
     <link href="http://dev.theladders.com/2013/01/new-beginnings/"/>
-    <updated>2013-01-31T11:59:09-05:00</updated>
+    <updated>2013-01-31T06:59:09-05:00</updated>
     <id>http://dev.theladders.com/2013/01/new-beginnings</id>
     <content type="html"><![CDATA[<blockquote><p>&#8220;You must be the change you wish to see&#8230;&#8221;</p><footer><strong>&#8211;Gandhi</strong></footer></blockquote>
 
@@ -789,6 +820,19 @@ removed call to com/theladders/Person::setLastName : SURVIVED</p>
 <p>Additionally, we are rebuilding our data center with shiny hardware, as well as a new network and level of resource flexibility that gets the bits from us to you, that much faster. Our DevOps team has been busy designing the new data center and ramping up for a smooth transition over the upcoming months.</p>
 
 <p>To celebrate our accomplishments so far, and to share our excitement about what is to come, we are relaunching our development blog, because the best decisions stand up to the harshest light of criticism. There are exceptionally talented people on this team, and you should meet them.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Trouble With Googles Immutableset]]></title>
+    <link href="http://dev.theladders.com/2012/03/trouble-with-googles-immutableset/"/>
+    <updated>2012-03-12T00:00:00-04:00</updated>
+    <id>http://dev.theladders.com/2012/03/trouble-with-googles-immutableset</id>
+    <content type="html"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="refresh" content="0;url=http://dev.theladders.com/2013/03/trouble-with-googles-immutableset/"></HEAD>
+</html>:
 ]]></content>
   </entry>
   
